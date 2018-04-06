@@ -13,7 +13,7 @@ function weightedDice (things) {
   let ans = null
   let i = 0
   while (!ans) {
-    const { thing, weight } = properWeightThings[i].weight
+    const { thing, weight } = properWeightThings[i]
     if (rand <= weight) {
       ans = thing
     }
