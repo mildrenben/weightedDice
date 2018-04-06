@@ -1,0 +1,19 @@
+{
+  "name": "weighteddice",
+  "version": "1.0.0",
+  "description": "Returns a random answer based on weighted inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mildrenben/weightedDice.git"
+  },
+  "author": "Ben Mildren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mildrenben/weightedDice/issues"
+  },
+  "homepage": "https://github.com/mildrenben/weightedDice#readme"
+}
