@@ -1,6 +1,6 @@
 {
   "name": "weighteddice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns a random answer based on weighted inputs",
   "main": "index.js",
   "scripts": {
