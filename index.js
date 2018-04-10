@@ -4,16 +4,17 @@
 // weights must equal 100
 
 function weightedDice (things) {
-  const rand = Math.round(Math.random() * 100)
-  let cumulative = 0
-  const properWeightThings = things.map(t => {
+  var rand = Math.round(Math.random() * 100)
+  var cumulative = 0
+  var properWeightThings = things.map(t => {
     cumulative = cumulative + t.weight
     return { thing: t.thing, weight: cumulative }
   })
-  let ans = null
-  let i = 0
+  var ans = null
+  var i = 0
   while (!ans) {
-    const { thing, weight } = properWeightThings[i]
+    var thing = properWeightThings[i].thing
+    var weight = properWeightThings[i].weight
     if (rand <= weight) {
       ans = thing
     }
@@ -22,4 +23,4 @@ function weightedDice (things) {
   return ans
 }
 
-export default weightedDice
+module.exports = weightedDice
